@@ -9,25 +9,36 @@
         <h1>Merry Christmas</h1>
         <p class="lead">Create your own customized Christmas card to share with others!</p>
 
-        <form>
+        {%if error_list %}
+          <div class="alert alert-danger">
+            <ul>
+            {% for error in error_list %}
+              <li>{{ error }}</li>
+            {% endfor %}
+            </ul>
+          </div>
+        {%endif %}
+
+        <form action="{% url 'create' %}" method="POST" enctype="multipart/form-data">
+          {% csrf_token %}
           <div class="form-group">
             <label for="from">From</label>
-            <input type="text" id="from" class="form-control" placeholder="John Doe">
+            <input type="text" id="from" class="form-control" placeholder="John Doe" name="from">
           </div>
 
           <div class="form-group">
             <label for="to">To</label>
-            <input type="text" id="to" class="form-control" placeholder="Jane Doe">
+            <input type="text" id="to" class="form-control" placeholder="Jane Doe" name="to">
           </div>
 
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea id="message" class="form-control" rows="4"></textarea>
+            <textarea id="message" class="form-control" rows="4" name="message"></textarea>
           </div>
 
           <div class="form-group">
             <label for="photo">Photo Upload</label>
-            <input type="file" id="photo"
+            <input type="file" id="photo" name="photo">
             <p class="help-block">Upload a photo of yourself</p>
           </div>
 

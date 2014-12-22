@@ -19,4 +19,5 @@ Goal: To create a card-generation application that users can customize using use
 * **1:57 PM** Figures.. I ran into an error loading the MySQLdb module for Django..
 * **2:41 PM** Pretty significant delay.. MySQL is being iffy..
 * **3:10 PM** I'm an idiot. We're back in business!
-* **3:26 PM** Card model created yay! For clarification on the time restraints, I cannot push anymore new code after 9:30. However, from 9:30 - 11:00 PM, I'll allow myself to clean up existing code for release at merrychristmas.wilhelmwillie.com
+* **3:26 PM** Card model created yay! For clarification on the time restraints, I cannot push anymore new code after 9:30. However, from 9:30 - 11:00 PM, I'll allow myself to clean up existing code for release at merrychristmas.wilhelmwillie.comcard
+* **3:41 PM** Updated Card model to include the slug.. For some reason I forgot to. In addition, I'm also working on getting the views and URL routing set up.

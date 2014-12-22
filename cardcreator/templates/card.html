@@ -1,1 +1,18 @@
-{{ card.message }}
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="card">
+        <h1>Merry Christmas!</h1>
+        <h2>Dear {{card.to_recepient}},</h2>
+        <p class="lead text-center">{{card.message}}</p>
+        <h2 class="text-right">From, {{card.from_sender}}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

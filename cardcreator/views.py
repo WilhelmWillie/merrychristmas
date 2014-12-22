@@ -7,4 +7,4 @@ def index(request):
 
 def card(request, card_slug):
   c = get_object_or_404(Card, slug=card_slug)
-  return render(request, 'card.html', {'message': c.message})
+  return render(request, 'card.html', {'card': c})

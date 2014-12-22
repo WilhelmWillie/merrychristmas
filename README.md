@@ -22,3 +22,4 @@ Goal: To create a card-generation application that users can customize using use
 * **3:26 PM** Card model created yay! For clarification on the time restraints, I cannot push anymore new code after 9:30. However, from 9:30 - 11:00 PM, I'll allow myself to clean up existing code for release at merrychristmas.wilhelmwillie.comcard
 * **3:41 PM** Updated Card model to include the slug.. For some reason I forgot to. In addition, I'm also working on getting the views and URL routing set up.
 * **4:26 PM** Took a slight break. Back to the grind. Implementing a few templates.
+* **4:53 PM** Starting to get a hang of Django. Still confused by it but I'll have it down soon.

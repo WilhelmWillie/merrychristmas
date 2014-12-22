@@ -24,3 +24,4 @@ Goal: To create a card-generation application that users can customize using use
 * **4:26 PM** Took a slight break. Back to the grind. Implementing a few templates.
 * **4:53 PM** Starting to get a hang of Django. Still confused by it but I'll have it down soon.
 * **5:24 PM** Dinner break. Made progress on the front-end.
+* **6:42 PM** Progress made. Working on form validation and etc.

@@ -26,7 +26,10 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '.wilhelmwillie.com',
+    'localhost'
+]
 
 
 # Application definition

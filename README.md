@@ -23,3 +23,4 @@ Goal: To create a card-generation application that users can customize using use
 * **3:41 PM** Updated Card model to include the slug.. For some reason I forgot to. In addition, I'm also working on getting the views and URL routing set up.
 * **4:26 PM** Took a slight break. Back to the grind. Implementing a few templates.
 * **4:53 PM** Starting to get a hang of Django. Still confused by it but I'll have it down soon.
+* **5:24 PM** Dinner break. Made progress on the front-end.

@@ -7,7 +7,6 @@ body {
 }
 
 .card {
-  background: #ffffff;
-  border: 3px solid darkred;
+  background: #ededed;
   padding: 20px;
 }

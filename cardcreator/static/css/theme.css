@@ -1,12 +1,94 @@
+html, body {
+  min-height: 100%;
+}
+
 body {
-  background: #fefefe;
+  background: url('../img/bg.jpg') center center no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.home h1, .home p.lead {
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 3.5em;
 }
 
 .home,.card {
   margin-top: 50px;
+  border-radius: 6px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
 }
 
-.card {
-  background: #ededed;
+.home, .card-content {
+  background: #fefefe;
   padding: 20px;
+  border-radius: 6px;
+}
+
+.card-content {
+  border-radius: 0 0 6px 6px;
+}
+
+.card-content p { margin-bottom: 0; text-align: center}
+
+.card-content .to, .card-content .from {display: block;}
+
+.card-content .to {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.card-content .from {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.card-ribbon {
+  text-align: center;
+  color: #ffffff;
+  background: #780A0A;
+  padding: 20px 0;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.10) inset;
+}
+
+.card-ribbon p {
+  margin: 0;
+  font-weight: 100;
+  font-size: 1.65em;
+  letter-spacing: 2px;
+}
+
+.card-img {
+  border-radius: 6px 6px 0 0;
+  overflow: hidden;
+}
+
+.btn-primary {
+  background: #780A0A;
+  border: 1px solid #630808;
+}
+
+.btn-primary:hover {
+  background: #8A0B0B;
+  border: 1px solid #630808;
+}
+
+.snow-flake {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+}
+
+.snow-flake img {
+  position: relative;
+  top: 0;
+  left: 0;
 }

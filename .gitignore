@@ -1,6 +1,9 @@
 # Sensitive data
 merrychristmas/secret.py
 
+# Ignore uploads
+cardcreator/static/uploads/*
+
 # OS Stuff
 .DS_Store
 

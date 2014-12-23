@@ -25,3 +25,4 @@ Goal: To create a card-generation application that users can customize using use
 * **4:53 PM** Starting to get a hang of Django. Still confused by it but I'll have it down soon.
 * **5:24 PM** Dinner break. Made progress on the front-end.
 * **6:42 PM** Progress made. Working on form validation and etc.
+* **7:49 PM** Back-end almost done! I was planning to add facial recognition to the photo upload portion to be fancy. However, due to time restraints, I won't be adding it. Maybe later?

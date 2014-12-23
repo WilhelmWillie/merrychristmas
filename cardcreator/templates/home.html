@@ -11,6 +11,8 @@
 
         {%if error_list %}
           <div class="alert alert-danger">
+            <strong>Error!</strong>
+
             <ul>
             {% for error in error_list %}
               <li>{{ error }}</li>

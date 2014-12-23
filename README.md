@@ -27,3 +27,4 @@ Goal: To create a card-generation application that users can customize using use
 * **6:42 PM** Progress made. Working on form validation and etc.
 * **7:49 PM** Back-end almost done! I was planning to add facial recognition to the photo upload portion to be fancy. However, due to time restraints, I won't be adding it. Maybe later?
 * **9:28 PM** Finished with the front end! I do have one more feature to add that I'll touch in the cleanup/release phase.. But yay I'm done!
+* **12:42 PM (December 23rd)** Finished with the project overall. I broke the time constraints rules (whoops) but the final product is ready for release. I'll be spending the next few hours trying to get an actual working product working on merrychristmas.wilhelmwillie.com

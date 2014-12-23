@@ -1,3 +1,4 @@
+/* Standard HTML */
 html, body {
   min-height: 100%;
 }
@@ -6,6 +7,13 @@ body {
   background: url('../img/bg.jpg') center center no-repeat;
   background-size: cover;
   background-position: fixed;
+}
+
+/* Home */
+.home {
+  background: #fefefe;
+  padding: 20px;
+  border-radius: 6px;
 }
 
 .home h1, .home p.lead {
@@ -18,17 +26,15 @@ body {
 
 .home,.card {
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 6px;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
 }
 
-.home, .card-content {
+/* Card */
+.card-content {
   background: #fefefe;
   padding: 20px;
-  border-radius: 6px;
-}
-
-.card-content {
   border-radius: 0 0 6px 6px;
 }
 
@@ -64,18 +70,22 @@ body {
 .card-img {
   border-radius: 6px 6px 0 0;
   overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: #FFFFFF;
 }
 
-.btn-primary {
-  background: #780A0A;
-  border: 1px solid #630808;
+.card-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.btn-primary:hover {
-  background: #8A0B0B;
-  border: 1px solid #630808;
+.card-img img {
+  width: 100%;
 }
 
+/* Face Flakes */
 .snow-flake {
   border-radius: 100%;
   overflow: hidden;
@@ -84,11 +94,22 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+  box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.75);
 }
 
 .snow-flake img {
   position: relative;
   top: 0;
   left: 0;
+}
+
+/* Bootstrap */
+.btn-primary {
+  background: #780A0A;
+  border: 1px solid #630808;
+}
+
+.btn-primary:hover {
+  background: #8A0B0B;
+  border: 1px solid #630808;
 }

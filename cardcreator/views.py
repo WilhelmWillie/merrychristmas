@@ -41,8 +41,8 @@ def create_card(request):
 
       if photo.content_type not in valid_content_types:
         error_list.append("Your file needs to be a valid photo!")
-      elif photo.size > 1000000 * 3:
-        error_list.append("Your file needs to be less than 3MB!")
+      elif photo.size > 1000000 * 4:
+        error_list.append("Your file needs to be less than 4MB!")
     else:
       error_list.append("Make sure the form is fully completed!")
 
